@@ -2,7 +2,7 @@
   "name": "jsvalidation",
   "version": "1.0.0",
   "description": "",
-  "main": "is-ready.js",
+  "main": "index.js",
   "dependencies": {
     "package": "^1.0.1"
   },
