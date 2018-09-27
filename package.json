@@ -1,0 +1,27 @@
+{
+  "name": "jsvalidation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "is-ready.js",
+  "dependencies": {
+    "package": "^1.0.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.24.7",
+    "nodemon": "^1.18.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "node_modules/.bin/nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SBaudrant/JSValidation.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SBaudrant/JSValidation/issues"
+  },
+  "homepage": "https://github.com/SBaudrant/JSValidation#readme"
+}
