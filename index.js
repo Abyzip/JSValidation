@@ -13,6 +13,15 @@ app.run()
 */
 
 // EXERCICE 2.3
+/*
 const app = require('./are-ready')
+
+app.run()
+*/
+
+
+// EXERCICE 3
+
+const app = require('./http-count')
 
 app.run()
