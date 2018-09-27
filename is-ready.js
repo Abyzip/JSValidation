@@ -21,16 +21,18 @@ function checkFolder(){
 }
 
 
+exports.run = app
 
 
+/* EXERCICE 2.2 */
 
 function checkFolderPromise(){
     let promise = new Promise(function(resolve, reject) {
         fs.exists(__dirname + '/node_modules/', (exists) => {
             if (exists) {
-                resolve(true)
+                resolve({"MODULES": true})
             } else if( !exists ) {
-                resolve(false)
+                resolve({"MODULES" : false})
             } else {
                 reject(new Error("Some shit happends"))
             }
@@ -41,6 +43,5 @@ function checkFolderPromise(){
 }
 
 
-exports.run = app
 
 exports.promiseCheck = checkFolderPromise

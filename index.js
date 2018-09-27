@@ -4,6 +4,15 @@ const app = require("./is-ready")
 app.run
 */
 
+// EXERCICE 2.2
+/*
 const app = require('./is-ready-test')
+
+app.run()
+
+*/
+
+// EXERCICE 2.3
+const app = require('./are-ready')
 
 app.run()

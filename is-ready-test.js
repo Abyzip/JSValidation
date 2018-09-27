@@ -5,7 +5,8 @@ const promise = promiseCheck.promiseCheck()
 
 function checkPromise(promise){
     promise.then((state) => {
-        console.log("State : "+ state)
+        console.log("State : ")
+        console.log(state)
     }).catch((error) => {
         console.log(error)
     })
