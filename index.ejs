@@ -1,0 +1,18 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css" >
+    </head>
+    <body>
+        <h1>toto</h1>
+        <a href="/index">index</a><br>
+        <a href="/getJSON"> get JSON </a>
+        <form method="post" action="reset">
+
+            <p><label>Current counter:  <%= current %> </label><input type="checkbox" name="current"></p><br>
+
+            <p><label>All time counter : <%= alltime %></label><input type="checkbox" name="alltime"></p><br>
+            <p><input type="submit" value="reset"></p>
+        </form>
+    </body>
+</html>
